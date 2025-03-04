@@ -1,0 +1,26 @@
+# Compiled class files
+*.class
+
+# Runtime logs and crash reports
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE files (IntelliJ, VS Code, Eclipse, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+
+# OS-specific files
+.DS_Store
+Thumbs.db
