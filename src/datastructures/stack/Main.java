@@ -9,6 +9,9 @@ public class Main {
         myStack.getTop();
         myStack.getHeight();
 
+        myStack.push(2);
+        myStack.push(7);
+        myStack.pop();
         System.out.println("\nStack:");
         myStack.printStack();
 
