@@ -16,12 +16,14 @@ public class Main {
         myBST.insert(27);
 
         System.out.println("Root: " + myBST.root.value);
+        System.out.println("Contains: " + myBST.contains(18));
         System.out.println(myBST.root.left.right.value);
 
         /*
             EXPECTED OUTPUT:
             ----------------
             Root: 47
+            Contains: true
             27
         */
 
