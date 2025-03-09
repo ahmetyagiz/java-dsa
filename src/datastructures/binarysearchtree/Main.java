@@ -9,14 +9,14 @@ public class Main {
         myBST.insert(47);
         myBST.insert(21);
         myBST.insert(76);
-        myBST.insert(18);
-        myBST.insert(52);
-        myBST.insert(82);
+        myBST.rInsert(18);
+        myBST.rInsert(52);
+        myBST.rInsert(82);
 
         myBST.insert(27);
 
         System.out.println("Root: " + myBST.root.value);
-        System.out.println("Contains: " + myBST.contains(18));
+        System.out.println("Contains: " + myBST.rContains(18));
         System.out.println(myBST.root.left.right.value);
 
         /*
