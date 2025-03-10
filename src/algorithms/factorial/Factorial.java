@@ -2,7 +2,7 @@ package algorithms.factorial;
 
 import java.math.BigInteger;
 
-public class Main {
+public class Factorial {
     public static void main(String[] args) {
         //int myFac = calculateFactorial(4);
 
